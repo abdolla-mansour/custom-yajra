@@ -7,6 +7,12 @@
     "require": {
         "php": ">=8.2"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Magdy-Tech-Solutions/Yajra-custom-provider"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Custom\\Yajra\\": "src/"
